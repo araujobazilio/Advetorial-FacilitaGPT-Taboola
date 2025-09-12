@@ -91,8 +91,16 @@ O arquivo `index.html` está pronto para deploy na Netlify:
 - **JavaScript**: Animações suaves e tracking básico
 - **Responsive Design**: Mobile-first approach
 
----
+## 🚀 Otimizações de Compliance (Taboola) — Versão 2.1
 
-## 🎉 Status: PROJETO CONCLUÍDO E PRONTO PARA DEPLOY
+- **Divulgações Obrigatórias**: seção antes do rodapé com 18+, isenção de risco/resultados, isenção financeira, isenção de saúde e aviso de marcas (WhatsApp/Meta, Google, OpenAI).
+- **Seções Legais Internas (Acordeão)**: criadas em `index.html` com âncoras `#termos`, `#privacidade`, `#cookies`:
+  - Termos de Uso: elegibilidade 18+, regras de uso, PI, limitações de responsabilidade, alterações e contato.
+  - Política de Privacidade: dados coletados, finalidades, base legal, compartilhamento, direitos do titular e conservação. Contato: aiinfinitus.com.br@gmail.com.
+  - Política de Cookies: o que são, tipos utilizados (necessários, desempenho) e como gerenciar no navegador.
+- **Rodapé com Links Rápidos**: adicionados links para Termos, Privacidade, Cookies e Divulgações, além do **CNPJ 28.144.474/0001-26**.
+- **CTA Tracking Corrigido**: evento agora escuta `.whatsapp-cta-button` com verificação defensiva.
 
-A landing page está 100% funcional e otimizada para campanhas no Taboola. Todos os elementos do briefing foram implementados com foco em conversão e experiência do usuário.
+## 🎉 Status: PROJETO OTIMIZADO E EM CONFORMIDADE
+
+A landing page está funcional, responsiva e com **exigências de divulgação e isenções** implementadas para atender à revisão do Taboola.
