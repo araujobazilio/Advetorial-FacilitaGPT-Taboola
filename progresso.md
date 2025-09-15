@@ -101,6 +101,17 @@ O arquivo `index.html` está pronto para deploy na Netlify:
 - **Rodapé com Links Rápidos**: adicionados links para Termos, Privacidade, Cookies e Divulgações, além do **CNPJ 28.144.474/0001-26**.
 - **CTA Tracking Corrigido**: evento agora escuta `.whatsapp-cta-button` com verificação defensiva.
 
+## 📊 Pixel do Taboola Instalado — 15/09/2025
+
+- **✅ Pixel Taboola Adicionado**: Código de tracking instalado no `<head>` da página
+- **ID do Pixel**: 1919669
+- **Localização**: Entre as meta tags e os estilos CSS
+- **Funcionalidades**: 
+  - Tracking de page_view automático
+  - Script carregado de forma assíncrona
+  - Compatível com as políticas do Taboola
+- **Verificação**: Código confirmado presente nas linhas 9-22 do index.html
+
 ## 🎉 Status: PROJETO OTIMIZADO E EM CONFORMIDADE
 
-A landing page está funcional, responsiva e com **exigências de divulgação e isenções** implementadas para atender à revisão do Taboola.
+A landing page está funcional, responsiva e com **exigências de divulgação e isenções** implementadas para atender à revisão do Taboola. **Pixel de tracking instalado e funcionando.**
